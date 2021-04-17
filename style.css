@@ -44,7 +44,8 @@ p {
 
 .foto {
   border-radius: 50%;
-  width: min-content;
+  max-width: 100%;
+  height: auto;
   margin: 15px;
 }
 
@@ -63,8 +64,10 @@ p {
   .card h2,
   .card p {
     text-align: left;
+    padding-right: 3px;
   }
-}
+
+
 
 @media screen and (min-width: 960px) {
   .kontejner {
